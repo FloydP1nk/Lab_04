@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22.1 FATAL_ERROR)
 project(hello_world)
 include_directories("~/formatter_lib/src")
-include_directories("~/formatter_ex_lib/src")
+include_directories("/Users/pavelerokhin/Lab_04/formatter_ex_lib/src")
 add_library(formatter_lib STATIC "~/formatter_lib/src/formatter.cpp")
 add_library(formatter_ex_lib STATIC "~/formatter_ex_lib/src/formatter_ex.cpp")
 target_include_directories(formatter_ex_lib PUBLIC
